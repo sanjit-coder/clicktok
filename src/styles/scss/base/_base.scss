@@ -1,0 +1,27 @@
+//BASE STYLING
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  font-family: 'Nunito Sans', sans-serif !important;
+  // font-display: swap;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+.reactHotToast {
+  max-width: unset !important;
+  padding: 12px 20px !important;
+  border-radius: 32px !important;
+  color: white !important;
+}

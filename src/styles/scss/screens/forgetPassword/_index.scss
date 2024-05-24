@@ -1,0 +1,48 @@
+.forgetPasswordContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.forgetPasswordBox {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: auto;
+  gap: 24px;
+
+  &__image {
+    display: flex;
+    align-self: center;
+  }
+  &__heading {
+    font-size: 24px;
+    font-weight: 700;
+
+    p {
+      font-size: 20px;
+      font-weight: normal;
+    }
+  }
+  .backArrowContainer {
+    align-self: center;
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &__text {
+      display: flex;
+      align-self: center;
+      font-size: 20px;
+      font-weight: normal;
+      color: #128c7e;
+
+      &:hover {
+        font-weight: bold;
+        color: rgb(254, 184, 3);
+      }
+    }
+  }
+}

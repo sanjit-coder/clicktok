@@ -1,0 +1,19 @@
+//THIS FILE WILL BE THE MAIN SCSS FILE TO BE IMPORTED IN APP.JS
+
+//BASE STYLING
+@import 'base/base';
+
+//MIXINS
+@import 'mixins/mixins';
+
+//COMPONENTS
+@import 'components/sideDrawer';
+@import 'components/table';
+
+//SCREENS
+@import 'screens/admin';
+@import 'screens/home';
+@import 'screens/dashboard';
+@import 'screens/forgetPassword';
+@import 'screens/privacyPolicy';
+@import 'screens/notifications';
